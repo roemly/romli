@@ -390,4 +390,4 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(\`Server ready on http://localhost:\${PORT}\`));
+app.listen(PORT, () => console.log(`Server ready on http://localhost:${PORT}`));
